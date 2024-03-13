@@ -1,0 +1,113 @@
+* {
+  font-family: Sans-Serif;
+}
+.logo{
+      --lumo-font-family: "Courier";
+}
+vaadin-paragraph{
+font-size: 20px;
+background-color: coral;
+}
+.aboutHeader{
+color: white;
+}
+.loginLink{
+color:#cc5500;
+background-color:white;
+}
+.slogan{
+color: white;
+font-weight: bold;
+}
+.drawerToggle{
+color: #cc5500;
+}
+//.orderView{
+            background: repeating-linear-gradient(
+              to right,
+              #cc5500,
+              #cc5500 10px,
+              #FFA07A 10px,
+              #FFA07A 20px
+           );
+}
+//.feedBackView{
+            background: repeating-linear-gradient(
+              to right,
+              #cc5500,
+              #cc5500 10px,
+              #FFA07A 10px,
+              #FFA07A 20px
+            );
+}
+.feedBackCenter{
+background-color: white;
+padding: 35px;
+border-radius: 25px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+vaadin-text-field[focused]::part(input-field) {
+  border-color: #cc5500;
+}
+.submitButton{
+background-color:#cc5500;
+text-font: bold;
+color:white;
+}
+.aboutBodyLayout{
+background-color: white;
+padding: 35px;
+border-radius: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+//.aboutView{
+            background: repeating-linear-gradient(
+              to right,
+              #cc5500,
+              #cc5500 10px,
+              #FFA07A 10px,
+              #FFA07A 20px
+           );
+}
+.headerLayout{
+background-color:#cc5500;
+padding: 35px;
+border-radius: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.catalogueImage{
+border-radius: 10px;
+}
+.feedBackHeader{
+color: #cc5500;
+}
+.loginCenter{
+background-color: white;
+padding: 35px;
+border-radius: 25px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.loginTitle{
+  margin-left: 30px;
+}
+.registerLink{
+color: #cc5500;
+font-size: small;
+}
+.red{
+color: #cc5500;
+}
+.white{
+background-color: white;
+padding: 35px;
+border-radius: 25px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.orderItems{
+padding: 10px;
+border-radius: 25px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dialogueLogin{
+color: #cc5500;
+}
